@@ -77,7 +77,7 @@ local library = {
 
 library.themes = {
     {
-           name = 'Default',
+        name = 'Twitch',
         theme = {
             ['Accent']                    = fromrgb(169,112,255);
             ['Background']                = fromrgb(14,14,14);
@@ -4621,11 +4621,11 @@ function library:CreateSettingsTab(menu)
     local mainSection = settingsTab:AddSection('Main', 1);
     local creditsSection = settingsTab:AddSection('Credits', 2);
     creditsSection:AddSeparator({text = 'Owners/Developers'});
-    creditsSection:AddText({text = "Viusalsfxx"})
-    creditsSection:AddText({text = "Kas66"})
-    creditsSection:AddSeparator({text = 'Helpers'});
     creditsSection:AddText({text = "AetherAuth"})
-    creditsSection:AddText({text = "Authprotection"})
+    creditsSection:AddText({text = "VMPROTECTION"})
+    creditsSection:AddSeparator({text = 'Helpers'});
+    creditsSection:AddText({text = "Vertax"})
+    creditsSection:AddText({text = "Tempest"})
 
 
     configSection:AddBox({text = 'Config Name', flag = 'configinput'})
