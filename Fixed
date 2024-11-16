@@ -77,7 +77,7 @@ local library = {
 
 library.themes = {
     {
-        name = 'Default',
+        name = 'Informant_V1',
         theme = {
             ['Accent']                    = fromrgb(103,89,179);
             ['Background']                = fromrgb(22,22,31);
